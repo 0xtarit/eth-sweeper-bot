@@ -1,0 +1,24 @@
+{
+  "name": "eth-sweeper-bot",
+  "version": "1.0.0",
+  "description": "A utility to sweep ETH from a target wallet to a safe wallet using minimal gas.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "ethereum",
+    "sweeper",
+    "ethers",
+    "bot",
+    "wallet",
+    "gas"
+  ],
+  "author": "tar",
+  "license": "MIT",
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.5.0",
+    "ethers": "^6.13.5"
+  }
+}
