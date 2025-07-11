@@ -68,9 +68,15 @@
 
   }
 
-  async function getBalance(_wallet_address) {
+  async function getBalance(_wallet_address, mode = "eth") {
     try {
       const balance = await provider.getBalance(_wallet_address);
+
+      switch (mode.toLowerCase()) {
+        case "wei":
+          return balance.toString();
+      }
+
       return balance;
     } catch (error) {
       console.log("Error fetching wallet balance:", error);
