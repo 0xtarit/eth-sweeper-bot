@@ -98,6 +98,8 @@ project/
 
 ---
 
+# Tip: Use PM2 or a similar process manager to keep the bot running in the background
+
 ## 📃 License
 
 MIT License © 2025
